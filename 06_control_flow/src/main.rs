@@ -10,7 +10,7 @@ fn verify_age(age: i32) {
     // they should be the same type
     let is_restricted = if age < 18 { false } else { true };
 
-    println!("Can we sell you cigarattes to a(n) {age}-year-old: {is_restricted}");
+    println!("Can we sell cigarattes to a(n) {age}-year-old: {is_restricted}");
 }
 
 fn again() {

@@ -1,3 +1,5 @@
+use std::io;
+
 fn main() {
     let x: f32 = 1.123456789;
     let y = 1.1234567890123456;
@@ -22,5 +24,19 @@ fn main() {
     let arr = [3; 5];
     println!("Elements of arr: {:?}", arr);
 
-    let _numbers: [i8; 6] = [1, 2, 3, 4, 5, 6];
+    let numbers: [i8; 6] = [21, 43, 99, 1, 60, 57];
+
+    println!("Enter an index (max {}):", numbers.len() - 1);
+
+    let mut index = String::new();
+
+    io::stdin()
+        .read_line(&mut index)
+        .expect("Failed to read line");
+
+    let index: usize = index.trim().parse().expect("Index should be a number");
+
+    let element = numbers[index];
+
+    println!("{element} is at index {index}");
 }

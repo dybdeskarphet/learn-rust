@@ -3,6 +3,9 @@ fn main() {
     verify_age(18);
     // again();
     weird_loop();
+    while_conditinal();
+    list_elements();
+    final_countdown();
 }
 
 fn verify_age(age: i32) {
@@ -41,4 +44,29 @@ fn weird_loop() {
     println!("Counting ended with {count}");
 }
 
-//  you're here https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html#conditional-loops-with-while
+fn while_conditinal() {
+    let mut number: u8 = 3;
+
+    while number != 0 {
+        println!("{number}!");
+        number -= 1;
+    }
+
+    println!("GO!");
+}
+
+fn list_elements() {
+    let array: [u8; 7] = [20, 53, 34, 61, 94, 38, 10];
+
+    for number in array {
+        println!("{number}");
+    }
+}
+
+fn final_countdown() {
+    for number in (1..4).rev() {
+        println!("{number}");
+    }
+
+    println!("LIFTOFF!!!!");
+}

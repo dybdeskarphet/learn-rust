@@ -2,7 +2,7 @@ fn main() {
     ownership1();
     let str = String::from("hello");
     takes_ownership(str);
-    // this won't work because str's value is moves into the function
+    // this won't work because str's value is moved to the function
     // println!("{str}");
 
     let x = 6;

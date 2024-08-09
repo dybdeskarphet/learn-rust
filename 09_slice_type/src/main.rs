@@ -5,7 +5,7 @@ fn main() {
 
     let arr = [1, 2, 3, 4, 5, 6];
     let slice: &[i8] = &arr[3..5];
-    let slice2: &[i32] = &arr[0..3];
+    // let slice2: &[i32] = &arr[0..3];
 
     println!("{:?}", slice)
 }

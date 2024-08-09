@@ -16,7 +16,7 @@ fn verify_age(age: i32) {
     println!("Can we sell cigarattes to a(n) {age}-year-old: {is_restricted}");
 }
 
-fn again() {
+fn _again() {
     loop {
         println!("again!");
     }

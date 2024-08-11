@@ -2,10 +2,6 @@
 
 This is my Rust learning repository. I'm using [The Rust Programming Language book](https://doc.rust-lang.org/stable/book/) to learn.
 
-## License
-
-This repository is licensed under the Unlicense. See the [LICENSE](LICENSE) file for more details.
-
 ## Progress
 
 - [x] Getting Started
@@ -110,3 +106,6 @@ This repository is licensed under the Unlicense. See the [LICENSE](LICENSE) file
     - [ ] F - Translations of the Book
     - [ ] G - How Rust is Made and “Nightly Rust”
 
+## License
+
+This repository is licensed under the Unlicense. See the [LICENSE](LICENSE) file for more details.

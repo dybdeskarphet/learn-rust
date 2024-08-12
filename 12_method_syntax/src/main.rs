@@ -8,6 +8,13 @@ struct Rectangle {
 }
 
 impl Rectangle {
+    fn square(size: u32) -> Self {
+        Self {
+            width: size,
+            height: size,
+        }
+    }
+
     fn area(&self) -> u32 {
         self.width * self.height
     }
@@ -35,6 +42,11 @@ fn defining_methods() {
         width: 15,
         height: 2,
     };
+
+    let square = Rectangle::square(10);
+
+    println!("Square height: {}", square.height());
+    println!("Square width: {}", square.width());
 
     println!("Can rect1 hold rect2: {}", rect1.can_hold(&rect2));
 

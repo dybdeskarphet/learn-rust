@@ -22,19 +22,19 @@ This is my Rust learning repository. I'm using [The Rust Programming Language bo
 - [x] Using Structs to Structure Related Data
     - [x] Defining and Instantiating Structs
     - [x] An Example Program Using Structs
-    - [ ] Method Syntax
-- [ ] Enums and Pattern Matching
-    - [ ] Defining an Enum
-    - [ ] The match Control Flow Construct
-    - [ ] Concise Control Flow with if let
+    - [x] Method Syntax
+- [x] Enums and Pattern Matching
+    - [x] Defining an Enum
+    - [x] The match Control Flow Construct
+    - [x] Concise Control Flow with if let
 - [ ] Managing Growing Projects with Packages, Crates, and Modules
     - [ ] Packages and Crates
     - [ ] Defining Modules to Control Scope and Privacy
     - [ ] Paths for Referring to an Item in the Module Tree
     - [ ] Bringing Paths Into Scope with the use Keyword
     - [ ] Separating Modules into Different Files
-- [ ] Common Collections
-    - [ ] Storing Lists of Values with Vectors
+- [x] Common Collections
+    - [x] Storing Lists of Values with Vectors
     - [ ] Storing UTF-8 Encoded Text with Strings
     - [ ] Storing Keys with Associated Values in Hash Maps
 - [ ] Error Handling

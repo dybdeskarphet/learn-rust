@@ -1,5 +1,5 @@
 fn main() {
-    // coins()
+    coins();
     let five = Some(5);
     let ten = times_two(five);
     let none = times_two(None);

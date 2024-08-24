@@ -1,12 +1,12 @@
-use std::fs::File;
 use std::error::Error;
+use std::fs::File;
 
 fn main() -> Result<(), Box<dyn Error>> {
     // verbose_error_handling();
     // simple_error_handling();
     // read_username_from_file();
-   let greeting_file = File::open("hello.txt")?;
-   Ok(())
+    let greeting_file = File::open("hello.txt")?;
+    Ok(())
 }
 
 /*

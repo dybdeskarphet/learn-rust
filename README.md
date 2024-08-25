@@ -1,6 +1,11 @@
 # 🦀 Rust Learning Repository
 
-This is my Rust learning repository. I'm using [The Rust Programming Language book](https://doc.rust-lang.org/stable/book/) to learn.
+This repository is dedicated to my journey of learning the Rust programming language.
+
+## Resources
+
+- [The Rust Programming Language book](https://doc.rust-lang.org/stable/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 
 ## License
 

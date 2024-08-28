@@ -18,8 +18,6 @@ impl Calculator {
 
 fn main() {
     use crate::Calculator::{Add,Substract,Divide,Mulitply};
-
     let ops = (Add.run(10,40), Substract.run(40,10), Divide.run(63,3), Mulitply.run(33,3));
-
     println!("{:?}", ops);
 }

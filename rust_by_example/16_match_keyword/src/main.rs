@@ -19,11 +19,11 @@ fn main() {
 
     println!("{} -> {}", boolean, binary);
 
-    fizzbuzz();
+    fizzbuzz(30);
 }
 
-fn fizzbuzz() {
-    for n in 1..=100 {
+fn fizzbuzz(n: u32) {
+    for n in 1..=n {
         match (n % 3, n % 5) {
             (0, 0) => println!("fizzbuzz"),
             (0, _) => println!("fizz"),
